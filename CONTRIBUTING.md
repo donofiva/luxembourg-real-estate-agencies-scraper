@@ -35,8 +35,8 @@ Feature suggestions are welcome! Please create an issue with:
 
 ```bash
 # Clone your fork
-git clone https://github.com/YOUR_USERNAME/LuxembourgAgenciesExtractor.git
-cd LuxembourgAgenciesExtractor
+git clone https://github.com/YOUR_USERNAME/luxembourg-real-estate-agencies-scraper.git
+cd luxembourg-real-estate-agencies-scraper
 
 # Run setup script
 ./setup.sh

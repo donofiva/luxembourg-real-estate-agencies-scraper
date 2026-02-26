@@ -24,8 +24,8 @@ A Python web scraper that extracts real estate agency information from the [Cham
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/LuxembourgAgenciesExtractor.git
-   cd LuxembourgAgenciesExtractor
+   git clone https://github.com/donofiva/luxembourg-real-estate-agencies-scraper.git
+   cd luxembourg-real-estate-agencies-scraper
    ```
 
 2. **Create a virtual environment** (recommended):
@@ -58,24 +58,17 @@ The scraper will:
 
 **Sample output:**
 ```
-Starting Luxembourg Real Estate Agencies Scraper...
-Total agencies in database: 150
-Active agencies: 145
-
-Scraping page 1...
-Page 1: Found 20 agencies, saved 5 new, skipped 15 existing
+2026-02-26 10:12:04 - main - INFO - Starting Luxembourg Real Estate Agencies Scraper
+2026-02-26 10:12:05 - main - INFO - Database before scraping: 150 total, 145 active
+2026-02-26 10:12:10 - src.scraper - INFO - Scraping page 1 (attempt 1/3)
+2026-02-26 10:12:14 - src.scraper - INFO - Found 20 agencies on page 1
+2026-02-26 10:12:15 - src.scraper - INFO - Page 1: 20 found, 5 new, 15 updated
 ...
-
-Total agencies scraped: 148
-Marked 2 agencies as inactive (no longer on website)
-
-Database statistics:
-  Total agencies: 153
-  Active agencies: 148
-  Inactive agencies: 5
-
-Exported 153 agencies to agencies.csv
-Done!
+2026-02-26 10:13:02 - main - INFO - Scraped 148 agencies from website
+2026-02-26 10:13:02 - main - INFO - Marked 2 agencies as inactive (no longer on website)
+2026-02-26 10:13:02 - main - INFO - Database after scraping: 153 total, 148 active, 5 inactive
+2026-02-26 10:13:03 - src.database.manager - INFO - Exported 153 agencies to agencies.csv
+2026-02-26 10:13:03 - main - INFO - Scraping session complete
 ```
 
 ### Output Files
