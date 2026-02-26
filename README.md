@@ -199,10 +199,6 @@ Ensure you have write permissions in the project directory for database and CSV 
 **Scraping failures**:
 The website structure may change over time. Check the HTML selectors in [src/scraper.py](src/scraper.py) if scraping fails.
 
-## Author
-
-Ivan Donofrio
-
 ## Acknowledgments
 
 - Data source: [Chambre Immobilière du Grand-Duché de Luxembourg](https://www.chambre-immobiliere.lu/)
